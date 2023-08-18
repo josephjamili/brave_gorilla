@@ -33,9 +33,8 @@ data = data_from_url(url)
 
 # In[32]:
 
-
+index = 0
 for row in data:
-    index = 0
     data[index] = row[:-1]
     index += 1
 
